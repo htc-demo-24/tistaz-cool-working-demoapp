@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tistaz-cool-working-demoapp"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-24"
+    "humanitec.com/appId": "tistaz-cool-working-demoapp"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
